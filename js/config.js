@@ -9,6 +9,8 @@ const APP_CONFIG = {
   sheetsSyncToken: "COR-7kQ2mX9vL4aT",
   // Productos por orden/aplicación (por defecto 6). Ver producto7... en Code.gs.
   maxProductos: 7,
+  // Detectar el lote por ubicación (GPS) en Fitosanitarios: necesita js/lotesGeo.js.
+  lotesGeo: true,
   // App de contratista: solo ve y carga lo de este contratista (el script de
   // la Sheet lo filtra según el token). Nombre exacto de Maestros - Contratistas.
   contratistaFijo: "Corrales",
